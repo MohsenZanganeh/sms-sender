@@ -42,7 +42,7 @@ app.post("/register", async (req, res) => {
 
   res.send({
     status: "SUCCESS",
-    message: "Register User Success Full",
+    message: "Register User Successful",
     data: User,
   });
 });
